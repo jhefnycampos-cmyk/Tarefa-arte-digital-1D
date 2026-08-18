@@ -1,12 +1,12 @@
 body {
-    background-color: aqua;
-    color:aqua;
+    background-color: rgb(252, 185, 97);
+    color:rgb(242, 247, 247);
     font-family: Arial, sans-serif;
 }
 
 header {
-    background-color: aqua;
-    color:aqua
+    background-color: rgb(19, 18, 18);
+    color:rgb(239, 245, 245)
     text-align: center;
     padding: 30px;
 }
@@ -16,7 +16,7 @@ header {
      }
 
      h2 {
-        color: aqua;
+        color: rgba(255, 106, 7, 0.322);
      }
 
      p {
@@ -30,7 +30,7 @@ header {
      }
 
      section {
-        background-color: aqua;
+        background-color:#FFD700;
         margin: 20px 0;
         padding: 20px;
         border-radius: 12px;
@@ -47,6 +47,6 @@ header {
      figcaption {
         text-align: center;
         font-size: 14px;
-        color: aqua;
+        color: #c0c0c0;
         margin-top: 8px;
      }
