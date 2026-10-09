@@ -20,7 +20,7 @@ h1 {
 }
 
 h2 {
-    color: #cddff8;
+    color: #04295c;
 }
 
 p {
@@ -74,10 +74,10 @@ figcaption {
 }
 
 .card {
-    background-color: #f3d9fa;
+    background-color: #71a4f0;
     padding: 15px;
     margin: 15px 0;
-    border-left: 6px solid #6b2d5c;
+    border-left: 6px solid #0e0244;
     border-radius: 10px;
 }
 
