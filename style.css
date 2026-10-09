@@ -1,21 +1,31 @@
 :root{
-
+    
+--cor-fundo: #a4c6f3;
+--cor-texto: #222222;
+--cor-principal:  #021c55;
+--cor-secundaria: white;
+--cor-hover: #04295c;
+--cor-superficie: white;
+--cor-card:#021c55;
+--cor-legenda:  #a5b9fa;
+--cor-clara: white;
+--cor-rodape: rgb(163, 155, 155);
 }
 body {
-    background-color: #a4c6f3;
-    color: #222222;
+    background-color: var(--cor-fundo);
+    color: var(--cor-texto);
     font-family: Arial, sans-serif;
     margin: 0;
 }
 
 header {
-    background-color: #021c55;
-    color: white;
+    background-color: var(--cor-principal);
+    color: var(--cor-clara);
     text-align: center;
     padding: 30px;
 }
 
-h1 {
+h1 {d
     font-size: 36px;
 }
 
@@ -69,7 +79,7 @@ img {
 figcaption {
     text-align: center;
     font-size: 14px;
-    color: #555555;
+    color: white;
     margin-top: 8px;
 }
 
@@ -94,7 +104,7 @@ footer {
 }
 
 button{
-   background-color: aquamarine;
+   background-color: rgb(127, 219, 255);
    color: white;
    border: none;
    padding: 10px 15px;
