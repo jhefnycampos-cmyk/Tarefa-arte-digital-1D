@@ -6,9 +6,9 @@
 --cor-secundaria: white;
 --cor-hover: #04295c;
 --cor-superficie: white;
---cor-card:#021c55;
---cor-legenda:  #a5b9fa;
---cor-clara: white;
+--cor-card:#608cec;
+--cor-legenda:  #092274;
+--cor-clara: rgb(196, 209, 250);
 --cor-rodape: rgb(163, 155, 155);
 }
 body {
@@ -25,12 +25,12 @@ header {
     padding: 30px;
 }
 
-h1 {d
+h1 {
     font-size: 36px;
 }
 
 h2 {
-    color: #04295c;
+    color: var(--cor-principal);
 }
 
 p {
@@ -43,9 +43,9 @@ nav {
 }
 
 nav a {
-    color: white;
+    color: var(--cor-clara);
     text-decoration: none;
-    background-color: #021c55;
+    background-color: var(--cor-secundaria);
     padding: 10px 15px;
     border-radius: 8px;
     margin: 5px;
@@ -53,7 +53,7 @@ nav a {
 }
 
 nav a:hover {
-    background-color: #a5b9fa;
+    background-color: var(--cor-hover);
 }
 
 main {
@@ -62,7 +62,7 @@ main {
 }
 
 section {
-    background-color: white;
+    background-color: var(--cor-superficie);
     margin: 20px 0;
     padding: 20px;
     border-radius: 12px;
