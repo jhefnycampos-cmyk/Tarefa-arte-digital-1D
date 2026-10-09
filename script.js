@@ -5,9 +5,10 @@ botoesCurtir.forEach(function (botaoCurtir){
 function curtir(){
       const contador = botaoCurtir.querySelector("span");
       if (curtiu === false) {
-              contador.textContent++;
+              contador.textContent = numero numeroAtual + 1;
+              curtiu = true;
         }else{
-contador.textContent--;
+contador.textContent = numeroAtual - 1;
 curtiu = false;
   }
  }
