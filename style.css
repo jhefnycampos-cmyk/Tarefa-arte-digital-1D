@@ -1,6 +1,6 @@
 :root{
     
---cor-fundo: #006eff;
+--cor-fundo: #a1ffff;
 --cor-texto: #222222;
 --cor-principal:  #021c55;
 --cor-secundaria: white;
@@ -8,7 +8,7 @@
 --cor-superficie: white;
 --cor-card:#608cec;
 --cor-legenda:  #092274;
---cor-clara: rgb(0, 225, 255);
+--cor-clara: #015c91;
 --cor-rodape: rgb(0, 183, 255);
 }
 body {
