@@ -2,15 +2,15 @@
     
 --cor-fundo: #EFECE6;
 --cor-texto: #2B2B2B;
---cor-principal:  #6B2D31;
---cor-secundaria:  #C5A059
+--cor-principal:   #B8C3B1;
+--cor-secundaria:  #B7895F;
 ;
 --cor-hover: #04295c;
 --cor-superficie: white;
---cor-card:#2C5E7A;
---cor-legenda:   #B87333;
+--cor-card:#E3D1BF;
+--cor-legenda:   #B8C3B1;
 --cor-clara: #2B2B2B;
---cor-rodape: #6B2D31;
+--cor-rodape: #B7895F;
 }
 body {
     background-color: var(--cor-fundo);
