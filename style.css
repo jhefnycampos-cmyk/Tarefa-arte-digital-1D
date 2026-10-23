@@ -3,14 +3,14 @@
 --cor-fundo: #EFECE6;
 --cor-texto: #2B2B2B;
 --cor-principal:   #B8C3B1;
---cor-secundaria:  #B7895F;
+--cor-secundaria:  #C8A27A;
 ;
---cor-hover: #04295c;
+--cor-hover: #C8A27A;
 --cor-superficie: white;
 --cor-card:#E3D1BF;
---cor-legenda:   #B8C3B1;
+--cor-legenda:   #6F8A78;
 --cor-clara: #2B2B2B;
---cor-rodape: #B7895F;
+--cor-rodape: #F6E3C8;
 }
 body {
     background-color: var(--cor-fundo);
@@ -90,6 +90,7 @@ figcaption {
     margin: 15px 0;
     border-left: 6px solid var(--cor-principal);
     border-radius: 10px;
+    flex: 1 1 300px;
 }
 
 .card h3 {
@@ -122,3 +123,9 @@ button:hover {
    margin: 20px auto;
 }
 
+.galeria {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
