@@ -15,11 +15,16 @@ botoesCurtir.forEach(function (botaoCurtir) {
 });
 
 const btnTema = document.querySelector(".btn-tema");
+btnTema.addEventListener("click", mudarTema);
+function mudarTema() {
+document.body.classList.toggle("tema-escuro");
+}
+
 if (localStorage.getItem("tema") === "escuro") {
-    document.body.classList.add("tema-escuro");
+document.body.classList.add("tema-escuro");
 }
 
 btnTema.addEventListener("click", () => {
-    const estaEscuro = document.body.classList.toggle("tema-escuro");
-    localStorage.setItem("tema", estaEscuro ? "escuro" : "claro");
+const estaEscuro = document.body.classList.toggle("tema-escuro");
+localStorage.setItem("tema", estaEscuro ? "escuro" : "claro");
 });
