@@ -152,9 +152,5 @@ button:hover {
     height: 50px;
     padding: 0;
     border-radius: 35%;
-    font-size: 20px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    z-index: 1000;
+    font-size: 25px;
 }
