@@ -12,4 +12,10 @@ function curtir(){
                 curtiu = false;
      }
   }
-}); 
+});
+
+const btnTema = document.queryseletor(".btn-tema");
+btnTema.addEventListener("click", mudarTema);
+function mudarTema() {
+    document.body.classList.toggle("tema-escuro");
+}
