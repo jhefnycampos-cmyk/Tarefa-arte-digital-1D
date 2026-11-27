@@ -1,15 +1,15 @@
 :root{
     
---cor-fundo: #EFECE6;
---cor-texto: #2B2B2B;
---cor-principal: #B8C3B1;
---cor-secundaria: #C8A27A;
---cor-hover: #C8A27A;
+--cor-fundo: #e6eaef;
+--cor-texto: #1e222b;
+--cor-principal: #b1b9c3;
+--cor-secundaria: #7aa2c8;
+--cor-hover: #7a9cc8;
 --cor-superficie: white;
---cor-card: #E3D1BF;
---cor-legenda: #6F8A78;
---cor-clara: #2B2B2B;
---cor-rodape: #F6E3C8;
+--cor-card: #bfcae3;
+--cor-legenda: #6f7b8a;
+--cor-clara: #2b2b2b;
+--cor-rodape: #545977;
 }
 
 body {
@@ -128,4 +128,20 @@ button:hover {
     gap: 20px;
     flex-wrap: wrap;
     justify-content: center;
+}
+
+.cards-curioidades {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.btn-tema {
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+    width: 50px;
+    height: 50px;
+    border-radius: 20%;
+    font-size: 30px;
 }
