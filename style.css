@@ -1,5 +1,4 @@
-:root{
-    
+:root{    
 --cor-fundo: #e6eaef;
 --cor-texto: #1e222b;
 --cor-principal: #5883b8;
@@ -144,12 +143,18 @@ button:hover {
     gap: 20px;
     flex-wrap: wrap;
 }
+
 .btn-tema {
-  position: fixed;
-  right: 20px;
-  bottom: 20px;
-  width: 50px;
-  height: 50px;
-  border-radius: 35%;
-  font-size: 20px;
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+    width: 50px;
+    height: 50px;
+    padding: 0;
+    border-radius: 35%;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 1000;
 }
