@@ -27,25 +27,6 @@ body {
     margin: 4px;
 }
 
-/* Tema claro (padrão) */
-body {
-    background-color: #ffffff;
-    color: #1a1a1a;
-    transition: background-color 0.3s, color 0.3s;
-}
-
-/* Tema escuro */
-body.tema-escuro {
-    background-color: #121212;
-    color: #f5f5f5;
-}
-
-body.tema-escuro .btn-tema {
-    background-color: #161b15;
-    color: #f5f5f5;
-    border: 1px solid #38423b;
-}
-
 header {
     background-color: var(--cor-principal);
     color: var(--cor-clara);
