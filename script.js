@@ -20,6 +20,7 @@ function mudarTema() {
     document.body.classList.toggle("tema-escuro");
 }
 
+const btnTema = document.querySelector(".btn-tema");
 if (localStorage.getItem("tema") === "escuro") {
     document.body.classList.add("tema-escuro");
 }
